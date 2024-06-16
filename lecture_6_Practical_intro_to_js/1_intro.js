@@ -128,3 +128,97 @@ switch(day) {
 
 
 
+/**
+ * loops -> while , for loop , do while , for each
+ */
+
+for( let num=1; num<=10; num++)
+{
+    console.log("number is ", num); 
+}
+
+
+/**
+ * Q2.
+ * fizz buzz
+ * number-> 20 
+ * 1->20
+ * if number divisible by 3 ->fizz
+ * if number divisible by 5 -> fizz
+ * if number divisible by both 3&5-> fizzBuzz
+ */
+
+let x=20; 
+for(let num=1; num<=x ;num++)
+{
+    if (num%3==0 && num%5==0)
+    {
+        console.log("fizzbuzz");
+    }
+    else if(num%5==0)
+    {
+        console.log("buzz");
+    }
+    else if(num%3==0 )
+    {
+        console.log("fizz");
+    }
+    else
+    {
+        console.log(num);
+    }
+}
+
+// this question teaches us that the most specific condition should be on top;
+
+
+/**
+ * functions-> reusable block of code create
+ * 
+ * 
+ */
+
+console.log("hello"); 
+
+function fn()
+{
+    console.log("I am a function"); 
+}
+
+ fn(); 
+
+ // functions with input
+
+ function fn(a,b)
+ {
+    let d = a+b ; 
+    return d ; 
+ }
+
+ fn("hello","world"); 
+ fn(10,20); 
+
+let result = fn(10,20); 
+console.log(result) ; 
+
+/**
+ * strings: how strings work in js: 
+ */
+
+let string1="I am a string" ; 
+let string2= 'I am a string'; 
+let templateString=`I am also string
+but can be multiple line`; 
+console.log(string1); 
+console.log(templateString);
+
+// Concatenation: appending a value to a string
+function greet(firstNameVar){
+    console.log("Hi "+ firstNameVar + "!"); 
+    console.log(`Hi 
+    ${firstNameVar} 
+    !`);
+}
+let firstName="Ansh Aggarwal";
+
+greet(firstName); 
