@@ -87,5 +87,20 @@ console.log("string:",str);
 
 
 
-//Q1
+//Q1 - given on jasbir sir file github
 
+let array= ["apple","banana","cherry","date"]; 
+let result = advancedManipulation(array); 
+console.log(result); 
+
+function advancedManipulation(words) {
+
+    let x = words.shift(); 
+    words.unshift("new"); 
+    words.unshift(x); 
+    words.splice(2,1); 
+    let st = words.join(","); 
+    return st;
+
+
+}
