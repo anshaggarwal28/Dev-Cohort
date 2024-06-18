@@ -32,4 +32,24 @@ let st = "hello" ;
 st = "hi" ; 
 console.log(b,st) ; 
 
+let arr1= [10,20,30] ; 
+let arr2= [30,40,50]; 
+arr=arr2;
+console.log(arr) ; 
+
+ const varName= 20; 
+// varName=100;   
+// // cant change value of const in stack. 
+
+ const str1= "hello"; 
+// str1 = "hi" ; 
+
+
+const arr3 =[10,20,30] ;
+arr3.push(100) ; 
+console.log("arr3",arr); 
+// we can manipulate the array in heap using const but cant change the array to another
+// we always use const ( default)
+
+
 
