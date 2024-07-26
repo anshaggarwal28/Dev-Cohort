@@ -1,0 +1,59 @@
+/* to provide styling -> select an element */
+/* universal selector */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* element selector */
+ h2 {
+    color: lightgreen;
+    background-color: gray;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif ;
+} 
+
+/* 16px -> 1 rem  */
+
+p {
+    font-size: 1.5rem;
+}
+/* font-weight is used for boldness
+thin , lighter , bold ,bolder or numeric value */
+span {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:1000 ;
+}
+/*line height is for spacing between the lines*/
+
+p{
+    font-weight:thin;
+    text-decoration:underline;
+
+    line-height: 70px;
+}
+
+.para{
+    color:red ;
+    background-color:black ;
+}
+
+#unique{
+    color: pink;
+    background-color: aquamarine;
+
+}
+
+.some{
+    font-style: italic;
+}
+
+
+.para.some{
+    background-color: blueviolet;
+}
